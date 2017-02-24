@@ -42,6 +42,11 @@
                                 <state key="normal" title="Start" backgroundImage="circle">
                                     <color key="titleColor" red="0.085078711474434132" green="0.88872195512820518" blue="0.053484129019360026" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="startWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E4j-he-bp8"/>
                                 </connections>
